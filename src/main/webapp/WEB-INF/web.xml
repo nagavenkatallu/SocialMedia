@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description>For login</description>
+  	<servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SuccessServlet</servlet-name>
+  	<display-name>SuccessServlet</display-name>
+  	<description></description>
+  	<servlet-class>SuccessServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProfileServlet</servlet-name>
+  	<display-name>ProfileServlet</display-name>
+  	<description></description>
+  	<servlet-class>ProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeServlet</servlet-name>
+  	<display-name>ChangeServlet</display-name>
+  	<description></description>
+  	<servlet-class>ChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotServlet</servlet-name>
+  	<display-name>ForgotServlet</display-name>
+  	<description></description>
+  	<servlet-class>ForgotServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SuccessServlet</servlet-name>
+  	<url-pattern>/SuccessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProfileServlet</servlet-name>
+  	<url-pattern>/ProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeServlet</servlet-name>
+  	<url-pattern>/ChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotServlet</servlet-name>
+  	<url-pattern>/ForgotServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
