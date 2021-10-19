@@ -2,6 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+
 public class ControllerTest {
 
 	@Test
@@ -29,9 +30,9 @@ public class ControllerTest {
 	public void testForgotPassword() {
 		User us=new User();
 		us.setUsername("venky123");
-		us.setPassword("venky123");
+		us.setEmail("venkat@123");
 		us.setAge(21);
 		assertEquals(true,new Controller().forgotPassword(us));
 	}
-
+	
 }
