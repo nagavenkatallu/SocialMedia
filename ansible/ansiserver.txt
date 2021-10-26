@@ -1,0 +1,3 @@
+[local]
+localhost ansible connection=local
+venky-VirtualBox hostname=127.0.1.1 ansible_ssh_user=venky

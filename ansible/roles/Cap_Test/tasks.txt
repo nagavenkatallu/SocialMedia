@@ -1,0 +1,8 @@
+- name: Download artifact
+  get_url:
+      url: http://localhost:5040/artifactory/Cap_Test/com/capstone/SocialMedia/0.0.1-SNAPSHOT/SocialMedia-0.0.1-20211021.091826-1.war
+      headers:
+      username: admin
+      password: adminadmin
+      dest: /home/venky/Latest
+      mode: 0644

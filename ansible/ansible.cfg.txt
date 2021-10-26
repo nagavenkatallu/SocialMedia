@@ -1,0 +1,4 @@
+[defaults]
+inventory = /home/venky/ansilab/ansiserver
+log path = /home/venky/ansilab/ansible.log
+roles_path = /home/venky/ansilab/roles
